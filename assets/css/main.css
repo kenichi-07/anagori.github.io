@@ -4109,3 +4109,27 @@ input, select, textarea {
 					}
 
 	}
+
+.hello-banner {
+  background-image: url('../images/pic09.jpg'); /* adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blurred-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 2em;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
