@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio-static",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/ansafnagori/Downloads/anagori.github.io-main/.claude/serve.js"],
+      "port": 4173
+    }
+  ]
+}
